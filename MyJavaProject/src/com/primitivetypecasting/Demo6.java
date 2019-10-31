@@ -24,21 +24,20 @@ public class Demo6 {
 	}
 			public static boolean isPrime(int n)
 			{
-				int count=0;
-				for(int j=1;j<=n;j++)
+				int count=2;
+				for(int j=2;j<=n/2;j++)
 				{
 				
 					if(n%j==0)
 					{
 						count++;
-						n++;
 					}
-				}
 				
-				if(count==2)
-				return true;
-				else
+				if(count==2) {
+				return true;}
+				else {
 				return false;
+				}
 			
 			}
 }
