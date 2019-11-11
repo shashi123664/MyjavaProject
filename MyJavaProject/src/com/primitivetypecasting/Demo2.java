@@ -1,4 +1,4 @@
-package com.primitivetypecasting;
+SSpackage com.primitivetypecasting;
 
 public class Demo2 {
 	public static void main(String[] args) {

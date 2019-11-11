@@ -32,7 +32,7 @@ public class Demo6 {
 					{
 						count++;
 					}
-				
+				}
 				if(count==2) {
 				return true;}
 				else {
@@ -40,7 +40,7 @@ public class Demo6 {
 				}
 			
 			}
-}
+			}
 			
 			
 				
